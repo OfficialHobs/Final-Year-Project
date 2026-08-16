@@ -1,0 +1,4225 @@
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 2
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 3
+            [6] => 4
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 3
+            [6] => 4
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', (SELECT gender FROM users WHERE id='1'), '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender=(SELECT gender FROM users WHERE id='1'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', (SELECT gender FROM users WHERE id='3'), '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender=(SELECT gender FROM users WHERE id='3'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', (SELECT gender FROM users WHERE id='4'), '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender=(SELECT gender FROM users WHERE id='4'), admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '6', (SELECT gender FROM users WHERE id='6'), '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender=(SELECT gender FROM users WHERE id='6'), admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 2
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 4
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 4
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 4
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 2
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 3
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 2
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 3
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 4
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 4
+            [3] => 1
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 4
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 4
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 4
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 4
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 3
+            [3] => 2
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 3
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 1
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 3
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 3
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 4
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 3
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 2
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 4
+            [3] => 1
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 4
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+            [7] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '7', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+            [7] => 4
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '7', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+            [7] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '7', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 3
+            [4] => 2
+            [6] => 2
+            [7] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '11')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='11'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '3', 'male', '11')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='male', admin_id='11'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '11')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='11'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 2
+            [4] => 2
+            [6] => 3
+            [7] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '11')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='11'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '3', 'male', '11')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='11'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '11')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='11'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '11')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='11'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '7', 'female', '11')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='11'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+            [7] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '7', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+            [7] => 4
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '16')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '7', 'female', '16')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='female', admin_id='16'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+            [7] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '16')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '7', 'female', '16')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='16'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 1
+            [6] => 3
+            [7] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 3
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 1
+            [6] => 3
+            [7] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '4', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '16')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '7', 'female', '16')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='16'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+            [7] => 3
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '16')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '16')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='16'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '7', 'female', '16')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='16'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+            [7] => 3
+            [8] => 2
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '7', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '8', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+Array
+(
+    [total_rooms] => 80
+    [room_division] => 2
+    [total_male_rooms] => 40
+    [total_female_rooms] => 40
+    [roomAssignments] => Array
+        (
+            [1] => 1
+            [3] => 1
+            [4] => 2
+            [6] => 3
+            [7] => 3
+            [8] => 2
+            [9] => 4
+        )
+
+)
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '1', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('1', '3', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='1', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '4', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '6', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('3', '7', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='3', gender='female', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('2', '8', 'male', '1')
+                ON DUPLICATE KEY UPDATE room_number='2', gender='male', admin_id='1'
+SQL Query: INSERT INTO room_assignments (room_number, user_id, gender, admin_id)
+                VALUES ('4', '9', 'female', '1')
+                ON DUPLICATE KEY UPDATE room_number='4', gender='female', admin_id='1'
